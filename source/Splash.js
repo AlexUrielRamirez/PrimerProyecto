@@ -4,7 +4,7 @@ import { View, Text, TouchableOpacity, TextInput, StyleSheet } from 'react-nativ
 
 class Splash extends Component {
    state = {
-      splash_text: 'EXCORT'
+      splash_text: 'E'
    }
 
    componentDidMount(){
@@ -31,15 +31,15 @@ export default Splash
 const styles = StyleSheet.create({
    container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#BF0310',
         justifyContent: 'center',
         alignItems: 'center'
    },
    splash_text:{
-        textAlign: 'center',
-        fontSize: 50,
-        color: '#FFFFFF',
-        fontFamily: "brushield"
+      textAlign: 'center',
+      fontSize: 50,
+      color: '#FFFFFF',
+      fontFamily: "vogue"
    },
    animation:{
          width: 100,

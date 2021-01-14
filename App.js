@@ -1,9 +1,11 @@
 import React from 'react';
-import Splash from './Excort/Splash.js'
+import ComponentManager from './source/ComponentManager.js'
 
 const App = () => {
+   
    return (
-      <Splash />
+      <ComponentManager />
    )
 }
+
 export default App
